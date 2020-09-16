@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.mainDiv {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    font-size: 0;
+}
+
+.mainDiv > div {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid black;
+}
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.yellow {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%; 
+}
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.red2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+.yellow2 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow; 
+}
+.green2 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.red3 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.yellow3 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow; 
+}
+.green3 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+}
+.mainDiv > div{
+    margin:0 auto;
+    display: inline-block;
+    color: white
+}
